@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 20px 20px;
+}
+
+.navbar {
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid darkblue;
+}
+
+.navbar a {
+    font-size: 1.4em;
+    padding-left: 30px;
+    text-decoration: none;
+    color: darkblue;
+    transition: 0.6s;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 82);
+    text-decoration: underline;
+}
+
+.navbar .active {
+    color: rgb(0, 0, 82);
+    text-decoration: underline;
+}
+
+.hero {
+    margin: 100px 0 140px 100px;
+}
+
+.hero h1 {
+    font-weight: 800;
+    font-size: 1.7em;
+    color: darkblue;
+    margin-bottom: 15px;
+}
+
+.hero span {
+    color: #FFD601;
+}
+
+.hero p {
+    font-weight: 500;
+    color: darkblue;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.media {
+    margin-left: 30px;
+}
+
+.media i {
+    color: darkblue;
+    font-size: 1.8em;
+    padding-left: 10px;
+    transition: 0.6s;
+
+}
+
+.media i:hover {
+    color: rgb(0, 0, 82);
+}
+
+.btn a {
+    color: #FFD601;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: darkblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 40px;
+    transition: 0.6s;
+}
+
+.btn a:hover {
+    color: darkblue;
+    background-color: #FFD601;
+    padding: 12px 24px;
+    margin-left: 29px;
+}
+
+.social {
+    display: flex;
+}
+
+.hero .icon {
+    position: absolute;
+    font-size: 9.1em;
+    color: darkblue;
+    margin-left: 60%;
+}
+
+.cards h2 {
+    text-align: center;
+    color: darkblue;
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
+.crd {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    margin: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.card h3 {
+    text-align: center;
+    padding: 25px;
+    font-weight: 700;
+    font-size: 1.7em;
+    color: darkblue;
+}
+
+.card p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.09em;
+}
+
+.card a {
+    color: #FFD601;
+    background: darkblue;
+    padding: 5px 15px;
+}
+
+.card .btn {
+    margin: 10px 0 0 20px;
+}
+
+.project {
+    margin-left: 150px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project img {
+    width: 400px;
+    height: 400px;
+    background-color: darkblue;
+    margin-top: 50px;
+}
+
+.project h3 {
+    color: darkblue;
+    font-size: 1.9em;
+    font-weight: 900;
+    padding-left: 40px;
+    margin-top: 70px;
+}
+
+.project p {
+    margin-top: 50px;
+    padding-left: 70px;
+    font-weight: 500;
+    font-size: 1.09em;
+}
+
+.prjct .btn {
+    margin-top: 50px;
+}
+
+.prjct a {
+    margin: 0 100px;
+}
+
+.prjct a:hover {
+    margin-left: 100px;
+}
+
+.footer {
+    background-color: darkblue;
+    color: #FFD601;
+    text-align: center;
+    width: 100%;
+    margin-top: 250px;
+}
+
+.footer a {
+    color: #FFD601;
+    text-decoration: none ;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about h1 {
+    color: darkblue;
+}
+
+.about h1 #span {
+    color: black;
+}
+
+.about h1 .span {
+    color: #FFD601;
+}
+
+.about h3 {
+    margin-left: 50px;
+}
+
+.about .p {
+    width: 480px;
+}
+
+.about .p p {
+    font-weight: 500;
+    font-size: 1.09em;
+}
+
+#all {
+    margin-top: 100px;
+}
+
+.all {
+    margin: 20px 40px;
+}
+
+#icon {
+    margin-top: 100px;
+}
+
+.all #i {
+    height: 300px;
+    border-radius: 40px;
+    background-color: #FFD601;
+    color: darkblue;
+    font-size: 20.68em;
+}
+
+
+.all .btn  {
+    margin-top: 20px;
+}
